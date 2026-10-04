@@ -1,5 +1,5 @@
 /* ==========================================
-   Box-Sizing Reset
+   Box Sizing Reset
    ========================================== */
 
 * {
@@ -15,7 +15,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-
     background-color: #f4f6f8;
     color: #333;
 }
@@ -62,7 +61,6 @@ section {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
@@ -97,10 +95,8 @@ input,
 select {
     width: 100%;
     padding: 10px;
-
     border: 1px solid #ccc;
     border-radius: 5px;
-
     font: inherit;
 }
 
@@ -121,16 +117,12 @@ select {
 
 button {
     padding: 10px 18px;
-
     border: none;
     border-radius: 5px;
-
     background-color: #2c3e50;
     color: white;
-
     font-size: 15px;
     cursor: pointer;
-
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
@@ -141,7 +133,7 @@ button:hover {
 
 
 /* ==========================================
-   Error Message
+   Error
    ========================================== */
 
 #error-message {
@@ -169,10 +161,8 @@ button:hover {
 .note-card {
     padding: 18px;
     margin-bottom: 15px;
-
     border: 1px solid #ddd;
     border-radius: 8px;
-
     background-color: #fafafa;
 }
 
@@ -190,16 +180,14 @@ button:hover {
 
 
 /* ==========================================
-   Note Category
+   Category Label
    ========================================== */
 
 .note-category {
     display: inline-block;
     padding: 4px 9px;
     margin-bottom: 8px;
-
     border-radius: 4px;
-
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -207,7 +195,7 @@ button:hover {
 
 
 /* ==========================================
-   Category Styles
+   Personal Category
    ========================================== */
 
 .category-personal {
@@ -220,6 +208,10 @@ button:hover {
 }
 
 
+/* ==========================================
+   Work Category
+   ========================================== */
+
 .category-work {
     border-left: 5px solid #8b0000;
 }
@@ -229,6 +221,10 @@ button:hover {
     color: #8b0000;
 }
 
+
+/* ==========================================
+   Study Category
+   ========================================== */
 
 .category-study {
     border-left: 5px solid #1976d2;
@@ -241,7 +237,7 @@ button:hover {
 
 
 /* ==========================================
-   Note Date
+   Date
    ========================================== */
 
 .note-date {
@@ -282,7 +278,7 @@ footer p {
 
 
 /* ==========================================
-   Mobile Design
+   Responsive Design
    ========================================== */
 
 @media (max-width: 600px) {
